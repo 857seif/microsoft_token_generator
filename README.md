@@ -112,6 +112,9 @@ Looking to deploy the toolkit instantly? Download the standalone executable bina
 
 ---
 
+The virus total link https://www.virustotal.com/gui/file/cead53ea2f07598dd114a81b4d6a73764a834a8029fdfd444d19a6b5f287ccf3?nocache=1 
+<img width="1173" height="205" alt="image" src="https://github.com/user-attachments/assets/409c019b-1896-4dbc-b1e8-e5ed58d73aec" />
+
 ## Usage
 
 1. **Build the project:**
