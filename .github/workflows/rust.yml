@@ -1,0 +1,32 @@
+name: Rust Windows Release
+
+on:
+  push:
+    branches: [ "main" ]
+    tags:
+      - 'microsoft_token_generator.exe'
+  pull_request:
+    branches: [ "main" ]
+
+env:
+  CARGO_TERM_COLOR: always
+
+jobs:
+  build:
+    runs-on: windows-latest
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Setup Rust Toolchain
+      uses: dtolnay/rust-toolchain@stable
+
+    - name: Build Release Binary
+      run: cargo build --release
+
+    - name: Generate GitHub Release Asset
+      if: startsWith(github.ref, 'refs/tags/')
+      uses: softprops/action-gh-release@v2
+      with:
+        tag_name: ${{microsoft_token_generator.exe}}
+        files: target/release/microsoft_token_generator.exe
