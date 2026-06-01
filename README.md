@@ -45,24 +45,19 @@ To capture secure HTTPS traffic without encountering connection handshake failur
 
 </div>
 [Administrator Launch]
-│
-▼
-┌────────────────────────┐
-│   TARGET STORAGE PATH  │ ──► [Click BROWSE DIRECTORY] to assign output location
-└────────────────────────┘
-│
-▼
-┌────────────────────────┐
-│   INITIALIZE CAPTURE   │ ──► Loops proxy engine on 127.0.0.1:8080 & opens Xbox/Store
-└────────────────────────┘
-│
-▼
-[ Launch Targeted Game ] ──► System automatically dumps payload to 'captured_token.txt'
-│
-▼
-┌────────────────────────┐
-│   TERMINATE PIPELINE   │ ──► Disengages proxy loop and normalizes global internet state
-└────────────────────────┘
+
+
+TARGET STORAGE PATH   ──► [Click BROWSE DIRECTORY] to assign output location
+
+
+INITIALIZE CAPTURE    ──► Loops proxy engine on 127.0.0.1:8080 & opens Xbox/Store
+
+
+
+Launch Targeted Game  ──► System automatically dumps payload to 'captured_token.txt'
+
+TERMINATE PIPELINE  ──► Disengages proxy loop and normalizes global internet state
+
 1. Log into the **Microsoft Store / Xbox App** using the account containing the legitimate game license or active Game Pass subscription.
 2. Under **`TARGET STORAGE PATH`** at the bottom, use **`BROWSE DIRECTORY`** to pick where your token will save.
 3. Head over to **`GET TOKEN`** tab and hit **`INITIALIZE CAPTURE`**.
@@ -76,14 +71,13 @@ To capture secure HTTPS traffic without encountering connection handshake failur
 
 ---
 
-┌─────────────────────────────┐
-│    BROWSE TOKEN MANUALLY    │ ──► Import a file shared by a friend
-└─────────────────────────────┘
-│
-▼
-┌─────────────────────────────┐
-│   ENGAGE EMULATION SERVER   │ ──► Intercepts runtime challenges with injected matrices
-└─────────────────────────────┘
+
+BROWSE TOKEN MANUALLY   ──► Import a file shared by a friend
+
+
+
+ENGAGE EMULATION SERVER  ──► Intercepts runtime challenges with injected matrices
+
 1. Log into your **OWN personal Xbox Account** (The profile that does *not* own the game).
 2. Navigate to the **`INJECT TOKEN`** tab.
 3. Click **`AUTO-LOAD FROM EXPORT PATH`** (if you generated the token on the same machine) or click **`BROWSE TOKEN MANUALLY`** to select a friend's text file.
